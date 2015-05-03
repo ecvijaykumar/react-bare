@@ -8,7 +8,8 @@ var DefaultLayout = React.createClass({
 	<meta charSet="utf-8"/>
 	<meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	  <title>{this.props.title}</title>
+	    <title>{this.props.title}</title>
+	    <link rel="stylesheet" href="/dist/css/myapp.min.css"/>
 	</head>
 	<body>
 	    <h1>Welcome</h1>
